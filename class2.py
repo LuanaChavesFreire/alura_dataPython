@@ -91,6 +91,8 @@ print(df_characters)
 #cmming back to the original dataframe
 
 df_cleanned = df.dropna()
+"""Removes rows with any missing values from the DataFrame."""
+
 print(df_cleanned.isnull().sum())
 
 print(df_cleanned.info())
