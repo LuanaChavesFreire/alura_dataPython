@@ -39,7 +39,7 @@ df["contrato"] = df["contrato"].map(traducao_contrato)
 df['senioridade'] = df["senioridade"].map(traducao_senioridade)
 
 print(df.isnull())
-"""Checks for missing values in the DataFrame and returns a DataFrame of the same shape with boolean values indicating the presence of nulls."""
+"""Checks for missing values in the DataFrame and returns a DataFrame of the same shape with boolean values indicating the presence of nulls. The shape is similar to the head method, but it shows the entire DataFrame."""
 
 print(df.isnull().sum())
 """Returns the count of missing values for each column in the DataFrame."""
